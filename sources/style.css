@@ -32,7 +32,7 @@ nav ul{
 
 /****** about me*******/
 
-section{
+.section{
     height: 500px;
     width: auto;
     background-image: url('./images/background.jpg');
@@ -51,7 +51,7 @@ section{
 }
 
 .profileContent{
-    margin: 4em;
+    margin-top: 4rem;
     width: 100px;
     height: 100px;
 }
@@ -78,26 +78,77 @@ h1{
     text-align: justify;
 }
 
-.iconContent{
+.iconsContent{
     display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    width: 100%;
 
 }
 
 .skillsIcon{
-    margin: 2rem;
+    display: inline-block;
     height: 50px;
     width: 50px;
-    
+    margin-top: 50px;
 }
 
 /* footer*/
 
 footer{
-    height: 100px;
+    height: 100%;
     background-color: bisque;
+    background-image: url(./images/footer\ background.png);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
+/* piano*/
 
+.piano{
+    width: 165px;
+    height: 105px;
+    display: block;
+    margin: 0 auto;
+    background-color: #fd4d3f;
+    margin-top: 15px;
+  }
+  .key{
+    width: 15px;
+    height: 100px;
+    display: inline-block;
+    border: solid #141c3a 1px;
+    box-shadow: 1px 2.5px;
+    background-color: white;
+    color: #141c3a;
+  }
+  .black-key{
+    width: 12.5px;
+    height: 50px;
+    display: inline-block;
+    background-color: #141c3a;
+    color: white;
+    position: absolute;
+    margin-left: -6px;
+    padding: 0px;
+  }
+  .keynote{
+    width: 10px;
+    height: 10px;
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+    margin-top: 87.5px;
+    color: #141c3a;
+  }
+
+  .black-keynote{
+    width: 10px;
+    height: 10px;
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+    margin-top: 37.5px;
+
+  }
