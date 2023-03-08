@@ -34,12 +34,13 @@ nav ul{
 
 .section{
     height: 500px;
-    width: auto;
-    background-image: url('./images/background.jpg');
+    background-color: bisque;
+    background-image: url('./images/background2.jpg');
     background-repeat: no-repeat;
     background-color: center;
     background-size: cover;
 }
+
 
 .aboutMeContent{
     display: flex;
@@ -51,7 +52,7 @@ nav ul{
 }
 
 .profileContent{
-    margin-top: 4rem;
+    margin-top: 2rem;
     width: 100px;
     height: 100px;
 }
@@ -68,6 +69,21 @@ h1{
     text-justify: inter-word;
     padding: 1%;
     margin-bottom: 1rem;
+}
+
+h3{
+    color: aliceblue;
+    text-justify: inter-word;
+    padding: 1%;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+h5{
+    color: aliceblue;
+    text-justify: inter-word;
+    text-align: center;
+    font-size: 0.5rem;
 }
 
 .aboutMeWords{
@@ -88,20 +104,16 @@ h1{
 
 .skillsIcon{
     display: inline-block;
-    height: 50px;
-    width: 50px;
-    margin-top: 50px;
+    height: 30px;
+    width: 30px;
+    margin-top: 8px;
 }
 
 /* footer*/
 
 footer{
-    height: 100%;
-    background-color: bisque;
-    background-image: url(./images/footer\ background.png);
-    background-position: top;
-    background-repeat: no-repeat;
-    background-size: cover;
+    height: 220px;
+    background-color: rgb(51, 48, 44);
 }
 
 /* piano*/
@@ -112,8 +124,9 @@ footer{
     display: block;
     margin: 0 auto;
     background-color: #fd4d3f;
-    margin-top: 15px;
+    margin-top: 30px;
   }
+
   .key{
     width: 15px;
     height: 100px;
