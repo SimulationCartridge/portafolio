@@ -2,39 +2,38 @@ body {
     font-family: 'Monserrat', sans-serif;
 }
 
-/*navegador*/
 
 div{
     display: block;
 }
+
+/*---------navegador---------*/
 
 .navContent{
     background-color: black;
     height: 35px;
 }
 
+
 nav ul{
     display: flex;
     justify-content: flex-end;
-    padding: 0%;
-    margin: 0;
 }
 
 .navItem{
-    float: left;
-    margin-top: 10px;
-    margin-right: 10px;
-    padding-left: 2em;
+    float: right;
+    margin: 5px 5px;
+    padding: 5px 5px;
     color: aliceblue;
 }
 
-/* main content*/
 
-/****** about me*******/
+
+/*---------About Me---------*/
 
 .section{
-    height: 600px;
-    background-color: bisque;
+    height: 550px;
+    width: 100%;
     background-image: url('./images/background2.jpg');
     background-repeat: no-repeat;
     background-color: center;
@@ -47,9 +46,9 @@ nav ul{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    
-
 }
+
+/*---------Profile Picture---------*/
 
 .profileContent{
     margin-top: 2rem;
@@ -62,13 +61,11 @@ nav ul{
     border-radius: 150px;
 }
 
-/* parrafo*/
+/*---------Nombre---------*/
 
 h1{
     color: aliceblue;
-    text-justify: inter-word;
-    padding: 1%;
-    margin-bottom: 2rem;
+    margin: 1rem 2rem;
     font-weight: bold;
 }
 
@@ -76,27 +73,22 @@ h1:hover{
     text-shadow: 0px 0px 10px rgb(62, 183, 109);
 }
 
+/*---------subtitles---------*/
+
 h3{
     color: aliceblue;
     text-justify: inter-word;
     padding: 1%;
-    margin-bottom: 2rem;
+    margin: 1rem 2rem;
     text-align: center;
-    font-weight: bold;
-    
+    font-weight: bold; 
 }
 
 h3:hover{
     text-shadow: 0px 0px 10px rgb(62, 183, 109);
 }
 
-h5{
-    color: aliceblue;
-    text-justify: inter-word;
-    text-align: center;
-    font-size: 0.5rem;
-    font-weight: bold;
-}
+/*---------Parrafo---------*/
 
 .aboutMeWords{
     width: 50%;
@@ -106,26 +98,40 @@ h5{
     text-align: justify;
 }
 
+/*------------------*/
+
 .iconsContent{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
     width: 100%;
-
 }
 
 .skillsIcon{
     display: inline-block;
     height: 30px;
     width: 30px;
-    margin-top: 8px;
+    padding: 0.5%;
 }
+
+h5{
+    color: aliceblue;
+    text-justify: inter-word;
+    text-align: center;
+    font-size: 0.5em;
+    font-weight: bold;
+}
+
 
 /* footer*/
 
 footer{
-    height: 400px;
+    height: 200px;
     background-color: rgb(51, 48, 44);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
 }
 
 /* piano*/
@@ -136,7 +142,6 @@ footer{
     display: block;
     margin: 0 auto;
     background-color: #fd4d3f;
-    margin-top: 30px;
   }
 
   .key{
