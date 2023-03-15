@@ -182,3 +182,36 @@ footer{
     margin-top: 37.5px;
 
   }
+
+
+
+  /* media queries*/
+
+  /*navBar*/
+  @media only screen and (min-width: 414px) and (max-width:  896px) {
+    .navItem{
+        font-size: smaller;
+    }
+  } 
+
+  /*mobile about me*/
+  @media only screen and (min-width: 414px) and (max-width:  896px){
+    .section{
+        height: 630px;
+    }
+    h1{
+        font-size: 1.5em;
+    }
+    h3{
+        font-size: 1rem;
+    }
+  }
+
+  /* footer*/
+
+  @media only screen and (min-width: 414px) and (max-width:  896px){
+    footer{
+        height: 230px
+    }
+  }
+
