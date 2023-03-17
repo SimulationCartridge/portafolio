@@ -156,7 +156,37 @@ button{
    /*******about me********/
 
    /* Extra small devices (portrait phones, less than 576px)*/
-   @media only screen and (max-width: 575.98px) { 
+   @media only screen and (max-width: 375px) { 
+    .skillsIcon{
+        height: 30px;
+        width: 30px;
+    }
+
+    .navContent{
+         height: 30px;
+    }
+
+    .navItem{
+        font-size: 12px;
+    }
+
+    .aboutMeWords{
+        font-size: 1rem;
+    }
+
+    h3{
+        padding: 1%;
+        margin: 1.5rem 1.5rem;
+    }
+
+    button{
+        margin: 0.5rem 0.5rem;
+    }
+
+    .section{
+        height: 880px;
+
+    }
 
    }
    
@@ -188,16 +218,114 @@ button{
         margin: 0.5rem 0.5rem;
     }
 
+    .section{
+        height: 880px;
+
+    }
+
     }
    
    /* Medium devices (tablets, 768px and up)*/
-   @media (min-width: 768px) and (max-width: 991.98px) { ... }
+   @media (min-width: 768px) and (max-width: 991.98px) { 
+    .skillsIcon{
+        height: 50px;
+        width: 50px;
+    }
+
+    .navContent{
+         height: 35px;
+    }
+
+    .navItem{
+        font-size: 14px;
+    }
+
+    .aboutMeWords{
+        font-size: 1rem;
+    }
+
+    h3{
+        padding: 1%;
+        margin: 2.5rem 2.5rem;
+    }
+
+    button{
+        margin: 0.5rem 0.5rem;
+    }
+
+    .section{
+        height: 990px;
+
+    }
+    }
    
    /* Large devices (desktops, 992px and up)*/
-   @media (min-width: 992px) and (max-width: 1199.98px) { ... }
+   @media (min-width: 992px) and (max-width: 1199.98px) { 
+    .skillsIcon{
+        height: 55px;
+        width: 55px;
+    }
+
+    .navContent{
+         height: 40px;
+    }
+
+    .navItem{
+        font-size: 1.225rem;
+    }
+
+    .aboutMeWords{
+        font-size: 1.500rem;
+    }
+
+    h3{
+        padding: 1%;
+        margin: 2.725rem 2.725rem;
+        font-size: 25px;
+    }
+
+    button{
+        margin: 0.5rem 0.5rem;
+    }
+
+    .section{
+        height: 1190px;
+
+    }
+    }
    
    /* Extra large devices (large desktops, 1200px and up)*/
-   @media (min-width: 1200px) { ... }
+   @media (min-width: 1200px) { 
+    .navContent{
+         height: 45px;
+    }
+
+    .navItem{
+        font-size: 1.5em;
+    }
+
+    .aboutMeWords{
+        font-size: 1.725em;
+    }
+
+    h3{
+        padding: 1%;
+        margin: 2rem 2rem;
+        font-size: 1.725em;
+    }
+    h1{
+        font-size: 2em;
+    }
+
+    button{
+        margin: 0.5rem 0.5rem;
+    }
+
+    .section{
+        height: 1000px;
+
+    }
+    }
 
 
   /*mobile about me*/
