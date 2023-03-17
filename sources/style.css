@@ -11,7 +11,7 @@ div{
 
 .navContent{
     background-color: black;
-    height: 35px;
+    height: 55px;
 }
 
 
@@ -33,7 +33,7 @@ nav ul{
 /*---------About Me---------*/
 
 .section{
-    height: 700px;
+    height: 1000px;
     width: 100%;
     background-image: url('./images/background2.jpg');
     background-repeat: no-repeat;
@@ -49,6 +49,12 @@ nav ul{
     align-items: center;
 }
 
+.contacto{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 /*---------Profile Picture---------*/
 
 .profileContent{
@@ -124,6 +130,11 @@ h5{
     font-weight: bold;
 }
 
+
+button{
+    margin: 1rem 1rem;
+}
+
 .cv{
     font-style: normal;
     color: black;
@@ -133,108 +144,67 @@ h5{
 }
 
 
-/* footer*/
-/*
 
-footer{
-    height: 200px;
-    background-color: rgb(51, 48, 44);
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-}
-*/
-
-/* piano*/
-
-/*
-* { box-sizing:border-box; }
- 
-body{ margin:0; background:#222; }
-.set {
-    height:18.875em; width:34em;
-  margin:5em auto; padding:3em 0 0 3em; position:relative; 
-  border:1px solid #160801; border-radius:1em; 
-  background:-webkit-gradient(linear, right bottom, left top, color-stop(0%,rgba(0,0,0,0.3)), color-stop(100%,rgba(0,0,0,0))), url('https://f.cl.ly/items/2q1f3t0C3R1b0g081w3n/vwood.png');
-box-shadow:0 0 50px rgba(0,0,0,0.5) inset, 0 1px rgba(212,152,125,0.2) inset,0 5px 15px rgba(0,0,0,0.5); }
-li { margin:0; padding:0; list-style:none; position:relative; float:left; }
- 
-ul .white {
-    height:16em; width:4em; z-index:1;
-    border-left:1px solid #bbb;
-    border-bottom:1px solid #bbb;
-    border-radius:0 0 5px 5px;
-    box-shadow:-1px 0 0 rgba(255,255,255,0.8) inset, 0 0 5px #ccc inset, 0 0 3px rgba(0,0,0,0.2);
-    background: linear-gradient(top, #eee 0%,#fff 100%);
-}
- 
-ul .white:active {
-    border-top:1px solid #777;
-    border-left:1px solid #999;
-    border-bottom:1px solid #999;
-    box-shadow:2px 0 3px rgba(0,0,0,0.1) inset, -5px 5px 20px rgba(0,0,0,0.2) inset,0 0 3px rgba(0,0,0,0.2);
-    background: linear-gradient(top, #fff 0%,#e9e9e9 100%);
-}
- 
-.black {
-    height:8em; width:2em; margin:0 0 0 -1em; z-index:2;
-    border:1px solid #000;
-    border-radius:0 0 3px 3px;
-    box-shadow:-1px -1px 2px rgba(255,255,255,0.2) inset, 0 -5px 2px 3px rgba(0,0,0,0.6) inset, 0 2px 4px rgba(0,0,0,0.5);
-    background:linear-gradient(45deg, #222 0%,#555 100%);
-}
- 
-.black:active {
-    box-shadow:-1px -1px 2px rgba(255,255,255,0.2) inset, 0 -2px 2px 3px rgba(0,0,0,0.6) inset, 0 1px 2px rgba(0,0,0,0.5);
-    background:linear-gradient(left, #444 0%,#222 100%);
-}
- 
-.a,.g,.f,.d,.c { margin:0 0 0 -1em;  }
- 
-ul li:first-child { border-radius:5px 0 5px 5px; }
-ul li:last-child { border-radius:0 5px 5px 5px; }
-
-*/
 
   /* media queries*/
 
   /*navBar*/
-  @media only screen and (min-width: 414px) and (max-width:  896px) {
-    .navItem{
-        font-size: smaller;
-    }
-  } 
-
-  /*mobile about me*/
-  @media only screen and (min-width: 414px) and (max-width:  896px){
-    .section{
-        height: 630px;
-    }
-    h1{
-        font-size: 1.5em;
-    }
-    h3{
-        font-size: 1rem;
-    }
-  }
-
-  /* footer*/
-
-  @media only screen and (min-width: 414px) and (max-width:  896px){
-    footer{
-        height: 230px
-    }
-  }
-
-  /* piano*/
-
-  @media only screen and (min-width: 414px) and (max-width:  896px){
-    .set {
-        height:18.875em; width:34em;
-      margin:5em auto; padding:3em 0 0 3em; position:relative; 
-      border:1px solid #160801; border-radius:1em; 
-      background:-webkit-gradient(linear, right bottom, left top, color-stop(0%,rgba(0,0,0,0.3)), color-stop(100%,rgba(0,0,0,0))), url('https://f.cl.ly/items/2q1f3t0C3R1b0g081w3n/vwood.png');
-    box-shadow:0 0 50px rgba(0,0,0,0.5) inset, 0 1px rgba(212,152,125,0.2) inset,0 5px 15px rgba(0,0,0,0.5); }
+  @media only screen and (min-width: 1200px) { 
     
   }
+
+   /*******about me********/
+
+   /* Extra small devices (portrait phones, less than 576px)*/
+   @media only screen and (max-width: 575.98px) { 
+
+   }
+   
+   /*Small devices (landscape phones, 576px and up)*/
+   @media (min-width: 414px) and (max-width: 896px) { 
+    .skillsIcon{
+        height: 30px;
+        width: 30px;
+    }
+
+    .navContent{
+         height: 30px;
+    }
+
+    .navItem{
+        font-size: 12px;
+    }
+
+    .aboutMeWords{
+        font-size: 1rem;
+    }
+
+    h3{
+        padding: 1%;
+        margin: 1.5rem 1.5rem;
+    }
+
+    button{
+        margin: 0.5rem 0.5rem;
+    }
+
+    }
+   
+   /* Medium devices (tablets, 768px and up)*/
+   @media (min-width: 768px) and (max-width: 991.98px) { ... }
+   
+   /* Large devices (desktops, 992px and up)*/
+   @media (min-width: 992px) and (max-width: 1199.98px) { ... }
+   
+   /* Extra large devices (large desktops, 1200px and up)*/
+   @media (min-width: 1200px) { ... }
+
+
+  /*mobile about me*/
+  @media only screen and 
+
+
+
+  /*skillIcons*/
+
+  @media only screen and 
